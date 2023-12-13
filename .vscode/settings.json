@@ -11,7 +11,7 @@
   },
   "files.exclude": {
     "**/.turbo": true,
-    "**/dist": false
+    // "**/dist": false
   },
   "eslint.nodePath": "node_modules/.bin",
   "eslint.packageManager": "pnpm",
@@ -27,6 +27,6 @@
     "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
+    "source.fixAll.eslint": "explicit"
   },
 }
